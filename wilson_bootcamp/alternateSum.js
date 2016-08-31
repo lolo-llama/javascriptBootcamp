@@ -2,7 +2,7 @@
 // Alterate adding and subtracting between an array of values.
 
 function alternateSum(n){
-    int sum = 0;
+    var sum = 0;
     n.forEach(function(val, index){
         //subtract odd elements, add even
         if(index%2){
@@ -14,4 +14,4 @@ function alternateSum(n){
     return sum;
 };
 
-console.log(alternateSum([1,2,3,4,5,6,7]));
+console.log(alternateSum([1,2,3,4,5,6,7,8,9]));
